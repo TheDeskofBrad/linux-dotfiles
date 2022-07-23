@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Purpose: Display the ARM CPU and GPU  temperature of Raspberry Pi 2/3 
+# Purpose: Display the ARM CPU and GPU temperature of Raspberry Pi 2/3
 #
 cpu=$(</sys/class/thermal/thermal_zone0/temp)
 echo

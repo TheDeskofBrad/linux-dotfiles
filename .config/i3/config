@@ -228,6 +228,7 @@ bindsym $mod+BackSpace split toggle
 
 # Open in floating windows (use 'xprop' to identify window properties)
 for_window [instance="qalculate-gtk" class="Qalculate-gtk"] floating enable
+for_window [instance="urxvt" class="URxvt"] floating enable
 for_window [instance="x-terminal-emulator" class="URxvt"] floating enable
 
 # Sreen brightness controls
